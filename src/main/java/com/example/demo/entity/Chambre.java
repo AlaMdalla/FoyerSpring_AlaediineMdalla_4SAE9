@@ -16,8 +16,8 @@ public class Chambre implements Serializable {
 @Enumerated(EnumType.STRING)
     private TypeChambre typeC ;
 
-//declarer une liste des reservations
    @OneToMany
+
     private Set<Reservation> reservations;
 
    @ManyToOne
