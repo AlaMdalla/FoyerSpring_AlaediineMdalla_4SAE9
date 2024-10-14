@@ -12,7 +12,7 @@ public class IuniversiteServiceImp implements IreservationService {
     }
 
     @Override
-    public void deleteChambre(Long aLong) {
+    public void delete(Long aLong) {
 
     }
 

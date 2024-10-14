@@ -17,7 +17,7 @@ public class IFoyerServiceImp implements IfoyerService {
     }
 
     @Override
-    public void deleteChambre(Long aLong) {
+    public void delete(Long aLong) {
 this.foyerRepository.deleteById(aLong);
     }
 

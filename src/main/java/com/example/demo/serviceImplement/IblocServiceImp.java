@@ -4,12 +4,13 @@ import com.example.demo.entity.Bloc;
 import com.example.demo.repositories.BlocRepository;
 import com.example.demo.services.IblocService;
 import lombok.AllArgsConstructor;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 import java.util.List;
 @AllArgsConstructor
-
+@Service
 public class IblocServiceImp implements IblocService {
     BlocRepository blocRepository;
     @Override
@@ -18,7 +19,7 @@ public class IblocServiceImp implements IblocService {
     }
 
     @Override
-    public void deleteChambre(Long aLong) {
+    public void delete(Long aLong) {
 this.blocRepository.deleteById(aLong);
     }
 

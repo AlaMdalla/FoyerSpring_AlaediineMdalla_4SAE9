@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface Iservice<Obj,Id>{
     Obj addTo(Obj object);
-    void deleteChambre(Id id);
+    void delete(Id id);
     List<Obj> getAll();
     Obj update(Obj object);
 

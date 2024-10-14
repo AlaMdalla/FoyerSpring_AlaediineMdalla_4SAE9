@@ -18,7 +18,7 @@ public class IchambreServiceImp implements IchambreService {
     }
 
     @Override
-    public void deleteChambre(Long aLong) {
+    public void delete(Long aLong) {
         this.chambreRepository.deleteById(aLong);
     }
 
